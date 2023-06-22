@@ -180,6 +180,7 @@
             this.txt_password.ForeColor = System.Drawing.Color.Black;
             this.txt_password.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_password.Location = new System.Drawing.Point(24, 83);
+            this.txt_password.MaxLength = 30;
             this.txt_password.Name = "txt_password";
             this.txt_password.PasswordChar = '\0';
             this.txt_password.PlaceholderText = "";
@@ -235,7 +236,7 @@
             // 
             this.tb_length.BackColor = System.Drawing.Color.Transparent;
             this.tb_length.Location = new System.Drawing.Point(24, 197);
-            this.tb_length.Maximum = 60;
+            this.tb_length.Maximum = 30;
             this.tb_length.Name = "tb_length";
             this.tb_length.Size = new System.Drawing.Size(392, 23);
             this.tb_length.TabIndex = 5;
