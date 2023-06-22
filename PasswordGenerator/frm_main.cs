@@ -54,7 +54,7 @@ namespace PasswordGenerator
                 });
             });
         }
-        private  void btn_generate_Click(object sender, EventArgs e)
+        private void btn_generate_Click(object sender, EventArgs e)
         {
             makePassword();
         }
@@ -67,7 +67,6 @@ namespace PasswordGenerator
                 {
                     lbl_valueLength.Text = tb_length.Value.ToString();
                 });
-                makePassword();
             });
         }
 

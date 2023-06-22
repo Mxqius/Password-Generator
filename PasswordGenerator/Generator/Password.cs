@@ -25,11 +25,8 @@ namespace PasswordGenerator.Generator
         public static string GenerateRandomPassword(int length, string chars, bool excludeDuplicate)
         {
 
-            if (excludeDuplicate && length > chars.Length)
-            {
-                MessageBox.Show("Cannot generate password with unique characters. Length exceeds available characters.");
-                return string.Empty;
-            }
+            if (excludeDuplicate && length > chars.Length)            
+                excludeDuplicate = false;            
 
             char[] password = new char[length];
 
